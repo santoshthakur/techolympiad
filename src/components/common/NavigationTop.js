@@ -12,7 +12,7 @@ function NavigationTop(){
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#home">About</Nav.Link>
+      <Nav.Link href="/Aboutus">About</Nav.Link>
       <Nav.Link href="#link">Procedures</Nav.Link>
       <Nav.Link href="#link">Timeline</Nav.Link>
       <Nav.Link href="#link">Awards</Nav.Link>

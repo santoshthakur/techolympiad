@@ -1,16 +1,13 @@
 import React from 'react'
 import Banner from '../common/Banner'
-import NavigationTop from '../common/NavigationTop';
 import TechnologySecHome from '../common/TechnologySecHome'
 import AdvisorsSection from '../common/AdvisorsSection';
 import EmailerSection from '../common/EmailerSection';
 import ContactHome from '../common/ContactHome';
-import FooterSection from '../common/FooterSection';
 
 function Home() {
     return (
         <div>
-            <NavigationTop />
             <Banner />
             <div className="container pt-5 pb-5 text-center">
                 <h2>About Us</h2>
@@ -22,7 +19,6 @@ function Home() {
             <AdvisorsSection />
             <EmailerSection />
             <ContactHome />
-            <FooterSection />
         </div>
     )
 }

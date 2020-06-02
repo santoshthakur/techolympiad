@@ -43,6 +43,11 @@ bottom: 160px;
     width: 275px;
     display: block;
 }
+.BannerInner {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
 .navheight{
     height: 97px;
     border-top: 5px solid rgb(231, 181, 11);
